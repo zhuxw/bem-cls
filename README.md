@@ -36,7 +36,7 @@ c.exact('exact-name', c.block); // exact-name myblock
 ```
 
 ## Use in React
-```
+```js
 import bemcls from 'bem-cls';
 
 const c = bemcls('my-comp');
