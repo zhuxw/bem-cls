@@ -1,0 +1,25 @@
+{
+  "name": "bem-cls",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "cov": "istanbul cover _mocha",
+    "build": "uglifyjs ./index.js -c -m -o ./index.min.js"
+  },
+  "keywords": [
+    "bem",
+    "cls",
+    "class",
+    "className"
+  ],
+  "author": "zhuxw",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "istanbul": "^0.4.5",
+    "mocha": "^5.2.0",
+    "uglifyjs": "^2.4.11"
+  }
+}
